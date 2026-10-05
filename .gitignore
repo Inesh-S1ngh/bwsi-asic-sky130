@@ -1,0 +1,10 @@
+# OpenLane run output and PDK installs are huge and reproducible
+runs/
+pdks/
+openlane_working_dir/
+*.gds
+*.def
+*.odb
+# editor / OS noise
+*.swp
+.DS_Store

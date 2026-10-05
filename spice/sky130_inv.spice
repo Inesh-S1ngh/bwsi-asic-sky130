@@ -1,0 +1,28 @@
+* SPICE3 file created from sky130_inv.ext - technology: sky130A
+* Netlist extracted from the Magic layout of sky130_inv; supply, input pulse
+* and .tran analysis added for the ngspice run. ./libs/*.lib are device models
+* from the course material and are not included in this repo.
+
+.option scale=0.01u
+.include ./libs/pshort.lib
+.include ./libs/nshort.lib
+
+//.subckt sky130_inv A Y VPWR VGND
+M1001 Y A VGND VGND nshort_model.0 ad=1.44n pd=0.152m as=1.37n ps=0.148m w=35 l=23
+M1000 Y A VPWR VPWR pshort_model.0 ad=1.44n pd=0.152m as=1.52n ps=0.156m w=37 l=23
+VDD VPWR 0 3.3V
+VSS VGND 0 0V
+Va A VGND PULSE(0V 3.3V 0 0.1ns 0.1ns 2ns 4ns)
+C0 VPWR A 0.0774f
+C1 Y VPWR 0.117f
+C2 Y A 0.0754f
+C3 Y VGND 0 2fF
+C4 A VGND 0.45f
+C5 VPWR VGND 0.781f
+//.ends
+.tran 1n 20n
+
+.control
+run
+.endc
+.end
