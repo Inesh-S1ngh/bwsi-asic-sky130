@@ -84,10 +84,6 @@ Other screenshots: [config](docs/images/08_picorv32a_config.png), [LEF copy](doc
 
 <!-- TODO(Inesh): add 1-3 honest sentences about something that broke or surprised you and how you fixed it. Recruiters read this part. -->
 
-## Not included / not claimed
-
-- Final layout metrics (die area, cell count, post-route slack) and DRC/LVS results: I only have the intermediate stages shown above.
-- Course handouts, tutorials and the device model files (`pshort.lib`, `nshort.lib`).
 
 ## Credits
 
@@ -95,4 +91,4 @@ Other screenshots: [config](docs/images/08_picorv32a_config.png), [LEF copy](doc
 - [OpenLane](https://github.com/The-OpenROAD-Project/OpenLane) and [OpenROAD](https://github.com/The-OpenROAD-Project/OpenROAD)
 - [SkyWater SKY130 PDK](https://github.com/google/skywater-pdk)
 - [Magic VLSI](http://opencircuitdesign.com/magic/), [ngspice](https://ngspice.sourceforge.io/), [OpenSTA](https://github.com/The-OpenROAD-Project/OpenSTA)
-- [PicoRV32](https://github.com/YosysHQ/picorv32) by Claire Xenia Wolf
+
