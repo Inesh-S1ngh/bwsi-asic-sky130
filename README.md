@@ -1,6 +1,6 @@
 # Sky130 RTL-to-GDS Flow Walkthrough (OpenLane + SkyWater 130nm)
 
-Hands-on notes and results from the **ASICs course at the MIT Beaver Works Summer Institute (BWSI), 2025**, where I worked through the open-source chip design flow on the SkyWater 130nm PDK, from a single standard cell up to a full RISC-V core.
+ Notes and results from the **ASICs course at the MIT Beaver Works Summer Institute (BWSI), 2025**, where I worked through the open-source chip design flow on the SkyWater 130nm PDK, from a single standard cell up to a full RISC-V core.
 
 > **What this is:** a log of the flow I ran and the experiments I did, with my own screenshots, configs and netlists. 
 > **What this is not:** a chip I designed from scratch. The `picorv32a` core is an open-source RISC-V CPU that ships as an example design with OpenLane, and the course material and device models are not included here.
